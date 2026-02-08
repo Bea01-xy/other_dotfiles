@@ -131,12 +131,3 @@ export PATH="$HOME/.local/bin:$PATH"
 
 alias config='/usr/bin/git --git-dir=/home/alt_bea/.cfg/ --work-tree=/home/alt_bea'
 
-# md - copy last command to clipboard
-MD_CMD_NAME="md"
-source "$HOME/.md/md.sh"
-
-# NVM 基础配置
-export NVM_DIR="$HOME/.config/nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
-
